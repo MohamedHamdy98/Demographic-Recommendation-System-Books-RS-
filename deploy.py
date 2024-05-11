@@ -11,7 +11,7 @@ st.set_page_config(
 @st.cache_data
 def load_data():
     path = r'C:/Users/Mohamed Hamde/OneDrive - Culture and Science City/Desktop/Clean Code AI/streamLite/recommendation_system/data_books.csv'
-    books = pd.read_csv(path)
+    books = pd.read_csv('data_books.csv')
     return books
 
 books = load_data()
