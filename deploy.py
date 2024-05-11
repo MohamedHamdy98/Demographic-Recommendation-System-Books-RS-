@@ -46,9 +46,11 @@ with st.sidebar:
     st.header(':book: :orange[Demographic Filtering]', divider='rainbow')
     # User input for recommendation
     number_of_books = st.number_input('Enter a number of top books:', 1)
-
     # Get recommendations
     btn_get_rec = st.button('Get Recommendations')
+    # the code on github
+    st.write('Check here if you want the notebook for coding [link](https://github.com/MohamedHamdy98/Demographic-Recommendation-System-Books-RS-)')
+    
 
 if btn_get_rec:
     recommendations = get_recommendations(books, number_of_books)
