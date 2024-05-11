@@ -49,7 +49,7 @@ with st.sidebar:
     # Get recommendations
     btn_get_rec = st.button('Get Recommendations')
     # the code on github
-    st.write('Check here if you want the notebook for coding [link](https://github.com/MohamedHamdy98/Demographic-Recommendation-System-Books-RS-)')
+
     
 
 if btn_get_rec:
