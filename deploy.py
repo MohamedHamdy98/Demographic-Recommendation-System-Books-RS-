@@ -10,7 +10,7 @@ st.set_page_config(
 # Load the dataset
 @st.cache_data
 def load_data():
-    path = r'C:\Users\Mohamed Hamde\OneDrive - Culture and Science City\Desktop\Clean Code AI\streamLite\recommendation_system\data_books.csv'
+    path = r'C:/Users/Mohamed Hamde/OneDrive - Culture and Science City/Desktop/Clean Code AI/streamLite/recommendation_system/data_books.csv'
     books = pd.read_csv(path)
     return books
 
